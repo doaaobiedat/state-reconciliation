@@ -57,14 +57,17 @@ Hidden findings: **7**
 ## Investigation Flow
 
 ```
-00_README.md
-01_INCIDENT_BRIEF.md
-02_incident.md
-03_health.log
-04_secret.enc
-05_release_notes.md
-LICENSE**+
-`
+README
+   ↓
+INCIDENT_BRIEF
+   ↓
+incident.md
+   ↓
+health.log
+   ↓
+secret.enc
+   ↓
+release_notes.md
 
 ---
 
