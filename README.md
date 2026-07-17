@@ -1,4 +1,6 @@
-# Production Incident Investigation
+# INC-2026-07-P1
+
+Production Incident Investigation
 
 ---
 
@@ -26,54 +28,47 @@ Determine the appropriate recovery strategy.
 
 ---
 
-## Status
+## Estimated Investigation Time
 
-**Incident ID**
+8–12 minutes
 
-INC-2026-07-P1
+---
 
-**Assigned Engineer**
+## Investigation Artifacts
+
+⚠ Read all artifacts before reaching any conclusion.
+
+- INCIDENT_BRIEF.md
+- incident.md
+- health.log
+- secret.enc
+- release_notes.md
+
+---
+
+## Investigation Notes
+
+Do not assume
+the first conclusion is the correct one.
+
+Not every incident
+originates from infrastructure.
+
+Some failures
+cannot be reproduced
+inside a development environment.
+
+---
+
+## Assigned Engineer
 
 OS
 
-**Priority**
-
-P1
-
-**Status**
-
-ACTIVE
+Status:
+Acknowledgement Pending...
 
 ---
 
-## Artifacts
+Next Action:
 
-Artifacts available: **5**
-
-Hidden findings: **7**
-
----
-
-## Investigation Flow
-
-```
-README
-   ↓
-INCIDENT_BRIEF
-   ↓
-incident.md
-   ↓
-health.log
-   ↓
-secret.enc
-   ↓
-release_notes.md
-
----
-
-## Important Notice
-
-No rollback should be performed
-until the investigation has been completed.
-
-Engineer acknowledgement required.
+Review incident.md
