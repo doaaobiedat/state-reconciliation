@@ -59,16 +59,12 @@ cannot be reproduced
 inside a development environment.
 
 ---
+## Hidden Findings
 
-## Assigned Engineer
+Some observations have been intentionally deferred.
 
-OS
-
-Status:
-Acknowledgement Pending...
+Continue the investigation.
 
 ---
 
-Next Action:
-
-Review incident.md
+**Engineer acknowledgement required.**
