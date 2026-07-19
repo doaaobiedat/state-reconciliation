@@ -1,86 +1,86 @@
-# INCIDENT BRIEF
+=========================================================
+INC-2026-07-P1
+Production Incident Investigation
+=========================================================
 
----
-
-**Incident ID**
-
+Incident ID:
 INC-2026-07-P1
 
-**Assigned Engineer**
-
-OS
-
-**Priority**
-
+Severity:
 P1
 
-**Status**
+Environment:
+Production
 
+Status:
 ACTIVE
 
----
+Estimated investigation time:
+8–12 minutes
 
-## Summary
+Artifacts:
+5
 
-An unexpected system state
-has been reported.
+Hidden findings:
+7
 
-Infrastructure monitoring
-indicates healthy services.
+Progress:
+0%
 
-No hardware failures detected.
+---------------------------------------------------------
 
-No network degradation observed.
+## Incident Summary
 
-Observed behavior
-does not match
-expected system state.
+Monitoring detected abnormal system behavior.
 
----
+Observed behavior does not match expected system state.
 
-## Current Findings
+---------------------------------------------------------
 
-The platform
-is operating
-as designed.
+## Initial Assessment
 
-The environment
-is not.
+Infrastructure ............... Healthy
 
----
+Kubernetes Cluster ........... Healthy
 
-## Impact Assessment
+Docker Runtime ............... Healthy
 
-No critical services
-are unavailable.
+CI/CD Pipeline ............... Healthy
 
-Normal operation
-continues.
+Deployment ................... Healthy
 
-However,
+Monitoring ................... Operational
 
-the current topology
-is not the intended one.
+---------------------------------------------------------
 
----
+## Impact
 
-## Investigation Notes
+No infrastructure failure detected.
 
-Escalation required.
+No service outage detected.
 
-Additional context
-is required.
+Alert remains active.
 
-Additional human context
-from the assigned engineer's
-primary node is required.
+---------------------------------------------------------
 
----
+## Assignment
 
-## Next Step
+Primary On-call Engineer
 
-Continue investigation.
+Status:
 
-Proceed to:
+Awaiting acknowledgement...
 
-`incident.md`
+---------------------------------------------------------
+
+⚠ Closing this investigation before  
+identifying the root cause may result  
+in an incorrect resolution.
+
+---------------------------------------------------------
+
+## Next Action
+
+Open:
+
+incident.md
