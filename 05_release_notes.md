@@ -107,10 +107,8 @@ Case closed.
 
 ---------------------------------------------------------
 
-Encoded Payload (Base64)
-
+Encoded Payload:
 ZE9zQW1BX2xvdmU=
 
----------------------------------------------------------
-
+Status:
 Still building.
